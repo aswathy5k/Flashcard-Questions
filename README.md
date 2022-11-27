@@ -13,6 +13,7 @@ This is basically a question generator deployed using NLP(Natural language proce
 A PDF file with content or text is uploaded and questions are generated from the content using NLP . Questions are displayed as flashcards. This can help user, for revising the topics he/she has covered. User can guess the answers. Correct answers can be viewed by flipping each card. Each flashcard can be saved.
 
 ## Link to product walkthrough
+ [Demo Video](https://drive.google.com/file/d/1ySENoS0RaKGAfq_y-Q1pAiYRLil7e3Bw/view?usp=share_link)
 
 ## Design
 <img src="https://i.postimg.cc/8cbM91SF/login.jpg">
@@ -28,15 +29,6 @@ A PDF file with content or text is uploaded and questions are generated from the
 - **Backend**: Flask
 - **IDE**: VS Code
 - **Design**: Figma
-
-
-
-
-## How to configure
-
-
-## How to run
-
 
 ## Future plans
 We plan to integrate more features in future. To upload any type of files. Highlighted text if present in the file uploaded should be given priority and more questions should be generated from these text. Questions are generated in the form of flash cards. Flash cards can be grouped into personalised folders. These flash cards can be saved in their own profile which can be made either by signing in through gmail/other social media accounts.
