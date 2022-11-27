@@ -6,15 +6,69 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
-  background-color: #77aa77;
-  background-image: url("./space.jpg");
+  background-image: url("./images/space.jpg");
   background-attachment: fixed;
   background-size: cover;
   font-family: "helvetica", sans-serif !important;
   overflow-x: hidden !important;
 }
+.navbar{
+  background-color: rgb(1, 41, 76);
+}
+.navbar-brand {
+  background-color: rgb(1, 41, 76);
+}
+.navigation{
+  font-family: var(--font2);
+  height: 74px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 26px;
+  color: rgb(77, 110, 153);
+}
+.nav-left{
+  font-size: 17px;
+  display: flex;
+  
 
+}
 
+/* .nav-left span{
+  padding-top: 10px;
+} */
+.nav-left img{
+  margin-top: 5px;
+  height: 120px;
+  width: 100px;
+}
+.nav-left ul{
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+  font-size: 20px;
+}
+.nav-left ul li{
+  
+  list-style: none;
+  margin: 0 30px ;
+  font-family: var(--font1); 
+  
+  
+}
+.nav-left ul li a:hover{
+  color: white;
+  font-weight: bold;
+}
+.nav-left ul li a{
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  
+  color: rgb(169, 206, 255);
+  
+}
 .card.has-text-centered h1 {
   font-size: 1.75rem;
   font-weight: bold;
@@ -156,4 +210,28 @@ body {
 
 .hero {
   margin-top: 70px !important;
+  margin-bottom: 70px;
 }
+
+.input{
+  height: 500px;
+  width: 800;
+}
+
+/* #text{
+  width: 1000;
+} */
+
+.all{
+  /* Rectangle 1 */
+color: white;
+position: absolute;
+width: 657px;
+height: 150px;
+left: 133px;
+top: 107px;
+
+background: rgba(207, 178, 178, 0.53);
+
+}
+

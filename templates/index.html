@@ -10,7 +10,8 @@
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
   <script src="https://kit.fontawesome.com/22be60108b.js" crossorigin="anonymous"></script>
-  <title>FlashyCards</title>
+          
+  <title>NOVA</title>
 </head>
 
 <body>
@@ -20,21 +21,40 @@
       src: "{{ url_for('static', filename='fonts/helvetica.ttf')}}"
     }
   </style>
-  <nav class="navbar is-dark is-fixed-top has-text-centered" role="navigation" aria-label="main navigation">
+  <nav class="navbar  is-fixed-top has-text-centered" role="navigation" aria-label="main navigation">
+    
     <div class="navbar-brand">
       
-      <a class="navbar-item has-text-centered" href="{{ url_for('index') }}"><strong
-          class="is-size-3 has-text-centered">FlashyCards</strong></a>
-      
+      <img  src="static/css/images/logo.png" alt="Logo" width="100" height="50" class="d-inline-block align-text-top m-2" >
+          
+     
+        
+          <div class="nav-left">
+              
+            
+            <ul>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/cards'>My Cards</a></li>
+                <li><a href='/login'>Login</a></li>
+            </ul>
+        </div>
       
   </nav>
+  <div class="all">
   <main role="main">
     <div class="hero">
-      <p class="is-size-3 has-text-black has-text-weight-bold has-text-centered">Upload the Document</p>
+      <div class="col">
+      <p class="is-size-3 has-text-black has-text-weight-bold has-text-centered" >Upload the Document</p>
+      
+      <br>
+      <br>
+      <br>
     </div>
+    
+      
     <div class="card has-text-centered">
-      <!-- <img src="https://cdn4.iconfinder.com/data/icons/files-and-folders-thinline-icons-set/144/File_PDF-512.png"
-        alt="upload" /> -->
+      
+
       <form action="/quiz" method="POST" enctype="multipart/form-data">
         <div id="file-js-example" class="file has-name is-fullwidth">
           <label class="file-label">
@@ -69,6 +89,7 @@
       </form>
     </div>
   </main>
+</div>
   <script>const button = document.querySelector('.button');
     const submit = document.querySelector('.submit');
 
@@ -84,6 +105,20 @@
     button.addEventListener('transitionend', toggleClass);
     button.addEventListener('transitionend', addClass);
   </script>
+</div>
+<div class="col">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <img  src="static/css/images/Girllogo.png" alt="Logo"  class="d-inline-block align-text-top m-2" >
+  <div>
+  
 </body>
 
 </html>
