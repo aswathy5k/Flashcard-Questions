@@ -31,7 +31,10 @@ A PDF file with content or text is uploaded and questions are generated from the
 - **Design**: Figma
 
 ## Future plans
-We plan to integrate more features in future. To upload any type of files. Highlighted text if present in the file uploaded should be given priority and more questions should be generated from these text. Questions are generated in the form of flash cards. Flash cards can be grouped into personalised folders. These flash cards can be saved in their own profile which can be made either by signing in through gmail/other social media accounts.
+We plan to integrate more features in future. To upload any type of files.
+Highlighted text if present in the file uploaded should be given priority and more questions should be generated from these text.
+Questions are generated in the form of flash cards. Flash cards can be grouped into personalised folders.
+These flash cards can be saved in their own profile which can be made either by signing in through gmail/other social media accounts.
 
 ## References
 
